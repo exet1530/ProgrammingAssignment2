@@ -2,6 +2,9 @@
 ## and will return this stored value rather than recalculating it if
 ## the matrix has not changed
 
+## An example square matrix: 
+## mymatrix <- matrix(c(1,1,3,0,2,4,-1,1,0),nrow=3,byrow=TRUE)
+
 ## Create a special matrix object that can store it's own inverse
 ## if it has already been calculated. It has functions set, get
 ## which set or get the matrix itself and setinverse, getinverse
